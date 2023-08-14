@@ -1,9 +1,9 @@
 import Image from "next/image";
 import logo from "../assets/logo.png"
 
-export default function Navbar() {
+export default function Footer() {
     return (
-      <div className="absolute top-0 left-0 p-4 z-10">
+      <div className="text-center">
         <Image
           src={logo}
           alt="Logo"
@@ -12,9 +12,4 @@ export default function Navbar() {
         />
       </div>
     );
-  } 
-  
-  
-  
-  
-  
+  }
