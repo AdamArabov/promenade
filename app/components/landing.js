@@ -1,31 +1,11 @@
-'use client'
-import React, { useEffect } from 'react'
+
+
 import Image from 'next/image';
 import Social from './socialCard';
-
 import ButtonComponent from './buttonComponent';
-
-
-  
-  export default function Landing() {
-    useEffect(() => {
-      const handleButtonClick = () => {
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-      };
-  
-      // Attach the event handler to the button after the component is mounted
-      const button = document.getElementById('scrollToBottomButton');
-      if (button) {
-        button.addEventListener('click', handleButtonClick);
-      }
-  
-      // Clean up the event handler when the component is unmounted
+ 
+  export default function Landing() {     
       return () => {
-        if (button) {
-          button.removeEventListener('click', handleButtonClick);
-        }
-      };
-    }, []); // Empty dependency array to ensure the effect runs only once
   
     return (
       <div className="relative min-h-screen">
