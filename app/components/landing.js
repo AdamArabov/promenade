@@ -50,7 +50,7 @@ import ButtonComponent from './buttonComponent';
           <h1 className="text-2xl">
             Our New Site Is
             <span className="block text-6xl font-extrabold leading-tight">COMING SOON</span>
-            <p className="text-2xl mt-2">Stay Tuned</p>
+            <p className="text-2xl mt-2">Stay Tuned!</p>
           </h1>
         </div>
   
