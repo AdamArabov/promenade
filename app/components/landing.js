@@ -1,11 +1,8 @@
-
-
 import Image from 'next/image';
 import Social from './socialCard';
 import ButtonComponent from './buttonComponent';
  
   export default function Landing() {     
-      return () => {
   
     return (
       <div className="relative min-h-screen">
