@@ -1,10 +1,12 @@
-import Card from "./components/card";
+import Landing from "./components/landing";
+
 
 export default function Home() {
-  return (
-   <div>
-    
-   </div>
-  
-  );
+ return(
+  <div>
+  <Landing />
+ 
+</div>
+ )
 }
+
