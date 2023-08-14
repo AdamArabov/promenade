@@ -23,13 +23,13 @@ import ButtonComponent from './buttonComponent';
         </div>
   
         {/* Content */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center font-helvetica-neue">
-          <h1 className="text-2xl">
-            Our New Site Is
-            <span className="block text-6xl font-extrabold leading-tight">COMING SOON</span>
-            <p className="text-2xl mt-2">Stay Tuned!</p>
-          </h1>
-        </div>
+       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center font-helvetica-neue">
+  <h1 className="text-2xl">
+    Our New Site Is
+    <span className="block text-6xl font-extrabold leading-tight">COMING SOON</span>
+  </h1>
+  <p className="text-2xl mt-2">Stay Tuned!</p>
+</div>
   
         {/* Button */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
