@@ -1,4 +1,3 @@
-import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css'; // Import FontAwesome styles
 export default function Social() {
   return (
