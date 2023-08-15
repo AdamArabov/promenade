@@ -5,15 +5,17 @@ import ButtonComponent from './buttonComponent';
   export default function Landing() {     
   
     return (
-      <div className="relative min-h-screen">
+      <div className="relative min-h-screen ">
         {/* Background Image */}
+        <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1556442281-77c90134c61f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
           alt="Your Image Alt Text"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
+          className="w-full h-full object-cover object-center"
+          width={1920}
+          height={1080}
         />
+      </div>
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
   
