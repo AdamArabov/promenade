@@ -1,16 +1,7 @@
+import React from 'react';
 import Footer from "./footer";
 
 
-export async function getStaticProps() {
-  // Fetch data here
-  const data = await fetchData();
-
-  return {
-    props: {
-      data,
-    },
-  };
-} 
 
 
 

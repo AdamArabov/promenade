@@ -1,14 +1,5 @@
+import React from 'react';
 
-export async function getStaticProps() {
-  // Fetch data here
-  const data = await fetchData();
-
-  return {
-    props: {
-      data,
-    },
-  };
-} 
 
 
 

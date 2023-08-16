@@ -1,15 +1,5 @@
+import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css'; // Import FontAwesome styles
-
-export async function getStaticProps() {
-  // Fetch data here
-  const data = await fetchData();
-
-  return {
-    props: {
-      data,
-    },
-  };
-} 
 
 
 

@@ -1,17 +1,9 @@
+import React from 'react';
 import Image from 'next/image';
 import Social from './socialCard';
 import ButtonComponent from './buttonComponent';
- 
-export async function getStaticProps() {
-  // Fetch data here
-  const data = await fetchData();
 
-  return {
-    props: {
-      data,
-    },
-  };
-}
+
   export default function Landing() {     
   
     return (
