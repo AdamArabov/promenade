@@ -9,7 +9,7 @@ import ButtonComponent from './buttonComponent';
     return (
       <div className="relative min-h-screen ">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1556442281-77c90134c61f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
           alt="Your Image Alt Text"
@@ -17,7 +17,7 @@ import ButtonComponent from './buttonComponent';
           width={1920}
           height={1080}
         />
-      </div>
+      </div> */}
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
   
