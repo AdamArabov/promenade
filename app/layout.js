@@ -11,9 +11,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <div className="bg-fixed bg-center bg-cover" >
-   {children}
-      </div>
-    
-  );
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  )
 }
