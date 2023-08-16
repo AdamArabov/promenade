@@ -1,5 +1,19 @@
 import Footer from "./footer";
 
+
+export async function getStaticProps() {
+  // Fetch data here
+  const data = await fetchData();
+
+  return {
+    props: {
+      data,
+    },
+  };
+} 
+
+
+
 export default function About() {
   return (
     <div className="flex flex-col items-center mt-20">

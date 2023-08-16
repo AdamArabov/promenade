@@ -1,4 +1,18 @@
 import '@fortawesome/fontawesome-free/css/all.css'; // Import FontAwesome styles
+
+export async function getStaticProps() {
+  // Fetch data here
+  const data = await fetchData();
+
+  return {
+    props: {
+      data,
+    },
+  };
+} 
+
+
+
 export default function Social() {
   return (
     <div className="flex flex-col items-end justify-center h-screen relative">

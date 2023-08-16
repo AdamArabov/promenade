@@ -2,6 +2,16 @@ import Image from 'next/image';
 import Social from './socialCard';
 import ButtonComponent from './buttonComponent';
  
+export async function getStaticProps() {
+  // Fetch data here
+  const data = await fetchData();
+
+  return {
+    props: {
+      data,
+    },
+  };
+}
   export default function Landing() {     
   
     return (
@@ -9,7 +19,7 @@ import ButtonComponent from './buttonComponent';
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1560089168-4169937e37d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+          src="https://images.unsplash.com/photo-1556442281-77c90134c61f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
           alt="Your Image Alt Text"
           className="w-full h-full object-cover object-center"
           width={1920}
