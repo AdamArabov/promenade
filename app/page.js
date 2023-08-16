@@ -6,7 +6,6 @@ export default function Home() {
   <main>
   <Landing />
   <About />
- 
 </main>
  )
 }
